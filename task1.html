@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hesablama</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #calculator {
+    text-align: center;
+    background-color: antiquewhite;
+    width: 500px;
+    margin: auto;
+    padding: 40px;
+  }
+  #calculator h1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  #calculator .result {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+  }
+  #calculator .num1,
+  #calculator .num2 {
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  #calculator button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  #calculator button:nth-child(5) {
+    border: 2px solid black;
+    background-color: chocolate;
+  }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <section id="calculator"   >
+ <h1>Simple Calculator</h1>
+      <div class="netice"><span>0</span></div>
+ <input class="reqem1" type="text" placeholder="Value 1"     />
+ <input class="reqem2"   type="text" placeholder="Value 2" />
+      <div class="buttons      ">
+        <button class="toplama">additional</button>
+    <button class="cixma">Substract</button>
+        <button class="vurma">Multiply</button>
+     <button class="bolme">Division</button>
+        <button class="sifirlamaq">Reset</button>
+      </div>
+    
+     <script src="./script.js"></script>
+
+  </body>
+</html>

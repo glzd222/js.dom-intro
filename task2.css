@@ -1,0 +1,40 @@
+.card{
+    border: 2px solid black;
+    width: 15%;
+    height: 250px;
+    background-color: #D9D3E7;
+}
+
+
+.card{
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: black;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+button{
+    color: white;
+    cursor: pointer;
+
+}
+
+.icon{
+    margin-top: 20px;
+    font-size: 40px;
+
+}
+
+.span{
+    margin-bottom: 10px;
+}
+
+.genel{
+    display: flex;
+    gap: 2rem;
+}
