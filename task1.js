@@ -38,8 +38,10 @@ bolme.addEventListener("click" ,(e)=>{
 
 sifirlamaq.addEventListener("click" ,(e)=>{
 
-    reqem1.value=""
-    reqem2.value=""
+   let sum =reqem1.value=""
+   let sum1= reqem2.value=""
 
-    n.textContent=n
+    n.textContent=sum1
+    n.textContent=sum
+
 })
